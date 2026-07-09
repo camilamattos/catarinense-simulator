@@ -25,8 +25,8 @@ class ScenarioService:
                     for match in league.matches
                     if (
                         not match.played
-                        and match.home.name == forced.home
-                        and match.away.name == forced.away
+                        and match.home.id == forced.home
+                        and match.away.id == forced.away
                     )
                 ),
                 None,
