@@ -1,25 +1,34 @@
 import json
 
 from fastapi import APIRouter
+from pydantic import BaseModel
 
-from league_simulator.services.league_cache import (
-    get_league,
-)
 from league_simulator.config import DASHBOARD
 from league_simulator.domain.forced_result import (
     ForcedResult,
 )
-from league_simulator.api.models import (
-    SimulationRequest,
-)
 from league_simulator.services.dashboard_service import (
     build_dashboard,
+)
+from league_simulator.services.league_cache import (
+    get_league,
 )
 from league_simulator.services.scenario_service import (
     ScenarioService,
 )
 
 router = APIRouter()
+
+
+class MatchResultRequest(BaseModel):
+    home: str
+    away: str
+    home_goals: int
+    away_goals: int
+
+
+class SimulationRequest(BaseModel):
+    results: list[MatchResultRequest]
 
 
 @router.get("/")
