@@ -1,0 +1,722 @@
+[
+  {
+    "round": 1,
+    "home": "blumenau-saf",
+    "away": "tubarao-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 0
+  },
+  {
+    "round": 1,
+    "home": "guarani",
+    "away": "metropolitano",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 1
+  },
+  {
+    "round": 1,
+    "home": "juventus",
+    "away": "nacao",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 1
+  },
+  {
+    "round": 1,
+    "home": "fluminense",
+    "away": "caravaggio",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 2
+  },
+  {
+    "round": 1,
+    "home": "hercilio-luz",
+    "away": "jaragua",
+    "played": true,
+    "home_goals": 4,
+    "away_goals": 1
+  },
+  {
+    "round": 2,
+    "home": "caravaggio",
+    "away": "blumenau-saf",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 3
+  },
+  {
+    "round": 2,
+    "home": "tubarao-saf",
+    "away": "juventus",
+    "played": true,
+    "home_goals": 4,
+    "away_goals": 0
+  },
+  {
+    "round": 2,
+    "home": "metropolitano",
+    "away": "hercilio-luz",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 0
+  },
+  {
+    "round": 2,
+    "home": "jaragua",
+    "away": "fluminense",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 2
+  },
+  {
+    "round": 2,
+    "home": "nacao",
+    "away": "guarani",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 3,
+    "home": "guarani",
+    "away": "caravaggio",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 1
+  },
+  {
+    "round": 3,
+    "home": "metropolitano",
+    "away": "nacao",
+    "played": true,
+    "home_goals": 5,
+    "away_goals": 2
+  },
+  {
+    "round": 3,
+    "home": "juventus",
+    "away": "blumenau-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 3
+  },
+  {
+    "round": 3,
+    "home": "tubarao-saf",
+    "away": "jaragua",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 1
+  },
+  {
+    "round": 3,
+    "home": "fluminense",
+    "away": "hercilio-luz",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 4,
+    "home": "jaragua",
+    "away": "juventus",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 1
+  },
+  {
+    "round": 4,
+    "home": "hercilio-luz",
+    "away": "guarani",
+    "played": true,
+    "home_goals": 6,
+    "away_goals": 0
+  },
+  {
+    "round": 4,
+    "home": "blumenau-saf",
+    "away": "fluminense",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 1
+  },
+  {
+    "round": 4,
+    "home": "caravaggio",
+    "away": "metropolitano",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 0
+  },
+  {
+    "round": 4,
+    "home": "nacao",
+    "away": "tubarao-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 0
+  },
+  {
+    "round": 5,
+    "home": "hercilio-luz",
+    "away": "blumenau-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 1
+  },
+  {
+    "round": 5,
+    "home": "guarani",
+    "away": "juventus",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 5,
+    "home": "fluminense",
+    "away": "nacao",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 1
+  },
+  {
+    "round": 5,
+    "home": "metropolitano",
+    "away": "tubarao-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 1
+  },
+  {
+    "round": 5,
+    "home": "jaragua",
+    "away": "caravaggio",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 8
+  },
+  {
+    "round": 6,
+    "home": "metropolitano",
+    "away": "blumenau-saf",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 6,
+    "home": "nacao",
+    "away": "jaragua",
+    "played": true,
+    "home_goals": 3,
+    "away_goals": 0
+  },
+  {
+    "round": 6,
+    "home": "guarani",
+    "away": "fluminense",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 6,
+    "home": "juventus",
+    "away": "hercilio-luz",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 1
+  },
+  {
+    "round": 6,
+    "home": "tubarao-saf",
+    "away": "caravaggio",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 2
+  },
+  {
+    "round": 7,
+    "home": "blumenau-saf",
+    "away": "guarani",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 0
+  },
+  {
+    "round": 7,
+    "home": "jaragua",
+    "away": "metropolitano",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 4
+  },
+  {
+    "round": 7,
+    "home": "caravaggio",
+    "away": "nacao",
+    "played": true,
+    "home_goals": 4,
+    "away_goals": 1
+  },
+  {
+    "round": 7,
+    "home": "hercilio-luz",
+    "away": "tubarao-saf",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 0
+  },
+  {
+    "round": 7,
+    "home": "fluminense",
+    "away": "juventus",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 1
+  },
+  {
+    "round": 8,
+    "home": "metropolitano",
+    "away": "juventus",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 0
+  },
+  {
+    "round": 8,
+    "home": "tubarao-saf",
+    "away": "fluminense",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 8,
+    "home": "caravaggio",
+    "away": "hercilio-luz",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 2
+  },
+  {
+    "round": 8,
+    "home": "jaragua",
+    "away": "guarani",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 3
+  },
+  {
+    "round": 8,
+    "home": "nacao",
+    "away": "blumenau-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 6
+  },
+  {
+    "round": 9,
+    "home": "juventus",
+    "away": "caravaggio",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 3
+  },
+  {
+    "round": 9,
+    "home": "guarani",
+    "away": "tubarao-saf",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 2
+  },
+  {
+    "round": 9,
+    "home": "hercilio-luz",
+    "away": "nacao",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 1
+  },
+  {
+    "round": 9,
+    "home": "blumenau-saf",
+    "away": "jaragua",
+    "played": true,
+    "home_goals": 6,
+    "away_goals": 0
+  },
+  {
+    "round": 9,
+    "home": "fluminense",
+    "away": "metropolitano",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 3
+  },
+  {
+    "round": 10,
+    "home": "jaragua",
+    "away": "hercilio-luz",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 2
+  },
+  {
+    "round": 10,
+    "home": "metropolitano",
+    "away": "guarani",
+    "played": true,
+    "home_goals": 3,
+    "away_goals": 1
+  },
+  {
+    "round": 10,
+    "home": "caravaggio",
+    "away": "fluminense",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 10,
+    "home": "tubarao-saf",
+    "away": "blumenau-saf",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 3
+  },
+  {
+    "round": 10,
+    "home": "nacao",
+    "away": "juventus",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 11,
+    "home": "hercilio-luz",
+    "away": "metropolitano",
+    "played": true,
+    "home_goals": 3,
+    "away_goals": 0
+  },
+  {
+    "round": 11,
+    "home": "juventus",
+    "away": "tubarao-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 2
+  },
+  {
+    "round": 11,
+    "home": "fluminense",
+    "away": "jaragua",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 11,
+    "home": "guarani",
+    "away": "nacao",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 0
+  },
+  {
+    "round": 11,
+    "home": "blumenau-saf",
+    "away": "caravaggio",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 2
+  },
+  {
+    "round": 12,
+    "home": "hercilio-luz",
+    "away": "fluminense",
+    "played": true,
+    "home_goals": 4,
+    "away_goals": 2
+  },
+  {
+    "round": 12,
+    "home": "caravaggio",
+    "away": "guarani",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 3
+  },
+  {
+    "round": 12,
+    "home": "jaragua",
+    "away": "tubarao-saf",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 3
+  },
+  {
+    "round": 12,
+    "home": "nacao",
+    "away": "metropolitano",
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 0
+  },
+  {
+    "round": 12,
+    "home": "blumenau-saf",
+    "away": "juventus",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 1
+  },
+  {
+    "round": 13,
+    "home": "juventus",
+    "away": "jaragua",
+    "played": true,
+    "home_goals": 8,
+    "away_goals": 1
+  },
+  {
+    "round": 13,
+    "home": "guarani",
+    "away": "hercilio-luz",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 2
+  },
+  {
+    "round": 13,
+    "home": "fluminense",
+    "away": "blumenau-saf",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 1
+  },
+  {
+    "round": 13,
+    "home": "metropolitano",
+    "away": "caravaggio",
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 1
+  },
+  {
+    "round": 13,
+    "home": "tubarao-saf",
+    "away": "nacao",
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
+  },
+  {
+    "round": 14,
+    "home": "blumenau-saf",
+    "away": "hercilio-luz",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 14,
+    "home": "tubarao-saf",
+    "away": "metropolitano",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 14,
+    "home": "juventus",
+    "away": "guarani",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 14,
+    "home": "caravaggio",
+    "away": "jaragua",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 14,
+    "home": "nacao",
+    "away": "fluminense",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 15,
+    "home": "fluminense",
+    "away": "guarani",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 15,
+    "home": "blumenau-saf",
+    "away": "metropolitano",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 15,
+    "home": "hercilio-luz",
+    "away": "juventus",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 15,
+    "home": "jaragua",
+    "away": "nacao",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 15,
+    "home": "caravaggio",
+    "away": "tubarao-saf",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 16,
+    "home": "metropolitano",
+    "away": "jaragua",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 16,
+    "home": "tubarao-saf",
+    "away": "hercilio-luz",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 16,
+    "home": "juventus",
+    "away": "fluminense",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 16,
+    "home": "guarani",
+    "away": "blumenau-saf",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 16,
+    "home": "nacao",
+    "away": "caravaggio",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 17,
+    "home": "juventus",
+    "away": "metropolitano",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 17,
+    "home": "guarani",
+    "away": "jaragua",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 17,
+    "home": "hercilio-luz",
+    "away": "caravaggio",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 17,
+    "home": "fluminense",
+    "away": "tubarao-saf",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 17,
+    "home": "blumenau-saf",
+    "away": "nacao",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 18,
+    "home": "jaragua",
+    "away": "blumenau-saf",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 18,
+    "home": "caravaggio",
+    "away": "juventus",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 18,
+    "home": "tubarao-saf",
+    "away": "guarani",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 18,
+    "home": "nacao",
+    "away": "hercilio-luz",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 18,
+    "home": "metropolitano",
+    "away": "fluminense",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  }
+]

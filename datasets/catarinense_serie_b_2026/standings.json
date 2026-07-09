@@ -1,0 +1,92 @@
+[
+  {
+    "team": "hercilio-luz",
+    "points": 29,
+    "wins": 9,
+    "draws": 2,
+    "losses": 2,
+    "goals_for": 28,
+    "goals_against": 9
+  },
+  {
+    "team": "metropolitano",
+    "points": 26,
+    "wins": 8,
+    "draws": 2,
+    "losses": 3,
+    "goals_for": 21,
+    "goals_against": 11
+  },
+  {
+    "team": "blumenau-saf",
+    "points": 24,
+    "wins": 7,
+    "draws": 3,
+    "losses": 3,
+    "goals_for": 27,
+    "goals_against": 9
+  },
+  {
+    "team": "caravaggio",
+    "points": 24,
+    "wins": 7,
+    "draws": 3,
+    "losses": 3,
+    "goals_for": 31,
+    "goals_against": 16
+  },
+  {
+    "team": "tubarao-saf",
+    "points": 23,
+    "wins": 6,
+    "draws": 5,
+    "losses": 2,
+    "goals_for": 19,
+    "goals_against": 10
+  },
+  {
+    "team": "guarani",
+    "points": 15,
+    "wins": 4,
+    "draws": 3,
+    "losses": 6,
+    "goals_for": 13,
+    "goals_against": 21
+  },
+  {
+    "team": "fluminense",
+    "points": 14,
+    "wins": 4,
+    "draws": 2,
+    "losses": 7,
+    "goals_for": 11,
+    "goals_against": 16
+  },
+  {
+    "team": "nacao",
+    "points": 14,
+    "wins": 3,
+    "draws": 5,
+    "losses": 5,
+    "goals_for": 11,
+    "goals_against": 20
+  },
+  {
+    "team": "juventus",
+    "points": 11,
+    "wins": 3,
+    "draws": 2,
+    "losses": 8,
+    "goals_for": 12,
+    "goals_against": 20
+  },
+  {
+    "team": "jaragua",
+    "points": 1,
+    "wins": 0,
+    "draws": 1,
+    "losses": 12,
+    "goals_for": 5,
+    "goals_against": 46
+  }
+]
