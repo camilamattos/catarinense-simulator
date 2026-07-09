@@ -38,8 +38,11 @@ class DashboardBuilder:
                 {
                     "position": index + 1,
                     "id": standing.team.id,
-                    "name": standing.team.name,
-
+                    "name": (
+                        "CAT"
+                        if standing.team.id == "tubarao-saf"
+                        else standing.team.name
+                    ),
                     "points": standing.points,
                     "wins": standing.wins,
                     "draws": standing.draws,
@@ -87,12 +90,20 @@ class DashboardBuilder:
 
                     "home": {
                         "id": match.home.id,
-                        "name": match.home.name,
+                        "name": (
+                            "CAT"
+                            if match.home.id == "tubarao-saf"
+                            else match.home.name
+                        ),
                     },
 
                     "away": {
                         "id": match.away.id,
-                        "name": match.away.name,
+                        "name": (
+                            "CAT"
+                            if match.away.id == "tubarao-saf"
+                            else match.away.name
+                        ),
                     },
                 }
                 for match in matches
