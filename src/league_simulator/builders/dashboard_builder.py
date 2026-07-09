@@ -18,6 +18,7 @@ class DashboardBuilder:
             league.standings,
             key=lambda standing: (
                 standing.points,
+                standing.wins,
                 standing.goal_difference,
                 standing.goals_for,
             ),

@@ -73,10 +73,15 @@ class Simulation:
         )
 
         return sorted(
-            standings,
-            key=lambda standing: standing.points,
-            reverse=True,
-        )
+        standings,
+        key=lambda standing: (
+            standing.points,
+            standing.wins,
+            standing.goal_difference,
+            standing.goals_for,
+        ),
+        reverse=True,
+    )
 
     def _standing(
         self,
