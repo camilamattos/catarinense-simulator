@@ -1,6 +1,6 @@
 {
   "championship": "Catarinense Série B 2026",
-  "iterations": 10000,
+  "iterations": 9999,
   "teams": [
     {
       "position": 1,
@@ -13,8 +13,8 @@
       "goals_for": 28,
       "goals_against": 9,
       "goal_difference": 19,
-      "champion_probability": 62.11,
-      "average_points": 37.12
+      "champion_probability": 62.3,
+      "average_points": 37.1
     },
     {
       "position": 2,
@@ -27,8 +27,8 @@
       "goals_for": 21,
       "goals_against": 11,
       "goal_difference": 10,
-      "champion_probability": 11.82,
-      "average_points": 33.83
+      "champion_probability": 12.44,
+      "average_points": 33.87
     },
     {
       "position": 3,
@@ -41,8 +41,8 @@
       "goals_for": 27,
       "goals_against": 9,
       "goal_difference": 18,
-      "champion_probability": 12.45,
-      "average_points": 32.83
+      "champion_probability": 12.37,
+      "average_points": 32.84
     },
     {
       "position": 4,
@@ -55,8 +55,8 @@
       "goals_for": 31,
       "goals_against": 16,
       "goal_difference": 15,
-      "champion_probability": 11.98,
-      "average_points": 32.99
+      "champion_probability": 11.49,
+      "average_points": 32.98
     },
     {
       "position": 5,
@@ -69,8 +69,8 @@
       "goals_for": 19,
       "goals_against": 10,
       "goal_difference": 9,
-      "champion_probability": 1.64,
-      "average_points": 30.04
+      "champion_probability": 1.4,
+      "average_points": 30.03
     },
     {
       "position": 6,
@@ -84,7 +84,7 @@
       "goals_against": 21,
       "goal_difference": -8,
       "champion_probability": 0,
-      "average_points": 21.52
+      "average_points": 21.49
     },
     {
       "position": 7,
@@ -98,7 +98,7 @@
       "goals_against": 16,
       "goal_difference": -5,
       "champion_probability": 0,
-      "average_points": 20.33
+      "average_points": 20.32
     },
     {
       "position": 8,
@@ -112,7 +112,7 @@
       "goals_against": 20,
       "goal_difference": -9,
       "champion_probability": 0,
-      "average_points": 19.62
+      "average_points": 19.64
     },
     {
       "position": 9,
@@ -126,7 +126,7 @@
       "goals_against": 20,
       "goal_difference": -8,
       "champion_probability": 0,
-      "average_points": 16.17
+      "average_points": 16.16
     },
     {
       "position": 10,
@@ -140,7 +140,7 @@
       "goals_against": 46,
       "goal_difference": -41,
       "champion_probability": 0,
-      "average_points": 4.74
+      "average_points": 4.8
     }
   ],
   "matches": [
