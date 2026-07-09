@@ -3,12 +3,19 @@ import json
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-from league_simulator.config import DASHBOARD
+from league_simulator.builders.dashboard_builder import (
+    DashboardBuilder,
+)
+from league_simulator.config import (
+    CHAMPIONSHIP,
+    DASHBOARD,
+    ITERATIONS,
+)
 from league_simulator.domain.forced_result import (
     ForcedResult,
 )
-from league_simulator.services.dashboard_service import (
-    build_dashboard,
+from league_simulator.engines.monte_carlo_engine import (
+    MonteCarloEngine,
 )
 from league_simulator.services.league_cache import (
     get_league,
@@ -46,7 +53,9 @@ def dashboard():
         encoding="utf-8",
     ) as file:
 
-        return json.load(file)
+        return json.load(
+            file
+        )
 
 
 @router.post("/simulate")
@@ -69,6 +78,15 @@ def simulate(
         ],
     )
 
-    return build_dashboard(
+    result = MonteCarloEngine(
+        iterations=ITERATIONS,
+    ).simulate(
         league,
+    )
+
+    return DashboardBuilder.build(
+        championship=CHAMPIONSHIP,
+        league=league,
+        result=result,
+        iterations=ITERATIONS,
     )
