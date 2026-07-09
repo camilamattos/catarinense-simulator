@@ -35,3 +35,6 @@ outputs/
 
 # Arquivos temporários
 *.tmp
+
+outputs/
+.pytest_cache/
