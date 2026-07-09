@@ -1,3 +1,5 @@
+from datetime import UTC, datetime
+
 from league_simulator.domain.league import League
 from league_simulator.domain.monte_carlo_result import (
     MonteCarloResult,
@@ -80,6 +82,11 @@ class DashboardBuilder:
 
         return {
             "championship": championship,
+
+            "updated_at": datetime.now(
+                UTC,
+            ).isoformat(),
+
             "iterations": iterations,
 
             "teams": teams,
