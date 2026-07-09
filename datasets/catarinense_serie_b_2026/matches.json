@@ -641,6 +641,14 @@
   },
   {
     "round": 17,
+    "home": "fluminense",
+    "away": "tubarao-saf",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 17,
     "home": "juventus",
     "away": "metropolitano",
     "played": false,
@@ -659,14 +667,6 @@
     "round": 17,
     "home": "hercilio-luz",
     "away": "caravaggio",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "round": 17,
-    "home": "fluminense",
-    "away": "tubarao-saf",
     "played": false,
     "home_goals": null,
     "away_goals": null

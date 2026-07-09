@@ -13,7 +13,7 @@
       "goals_for": 28,
       "goals_against": 9,
       "goal_difference": 19,
-      "champion_probability": 62.2,
+      "champion_probability": 62.11,
       "average_points": 37.12
     },
     {
@@ -27,7 +27,7 @@
       "goals_for": 21,
       "goals_against": 11,
       "goal_difference": 10,
-      "champion_probability": 14.16,
+      "champion_probability": 11.82,
       "average_points": 33.83
     },
     {
@@ -41,7 +41,7 @@
       "goals_for": 27,
       "goals_against": 9,
       "goal_difference": 18,
-      "champion_probability": 10.36,
+      "champion_probability": 12.45,
       "average_points": 32.83
     },
     {
@@ -55,13 +55,13 @@
       "goals_for": 31,
       "goals_against": 16,
       "goal_difference": 15,
-      "champion_probability": 11.05,
+      "champion_probability": 11.98,
       "average_points": 32.99
     },
     {
       "position": 5,
       "id": "tubarao-saf",
-      "name": "Tubarao Saf",
+      "name": "CAT",
       "points": 23,
       "wins": 6,
       "draws": 5,
@@ -69,7 +69,7 @@
       "goals_for": 19,
       "goals_against": 10,
       "goal_difference": 9,
-      "champion_probability": 2.23,
+      "champion_probability": 1.64,
       "average_points": 30.04
     },
     {
@@ -192,7 +192,7 @@
       "round": 14,
       "home": {
         "id": "tubarao-saf",
-        "name": "Tubarao Saf"
+        "name": "CAT"
       },
       "away": {
         "id": "metropolitano",
@@ -218,7 +218,7 @@
       },
       "away": {
         "id": "tubarao-saf",
-        "name": "Tubarao Saf"
+        "name": "CAT"
       }
     },
     {
@@ -302,7 +302,7 @@
       "round": 16,
       "home": {
         "id": "tubarao-saf",
-        "name": "Tubarao Saf"
+        "name": "CAT"
       },
       "away": {
         "id": "hercilio-luz",
@@ -328,7 +328,7 @@
       },
       "away": {
         "id": "tubarao-saf",
-        "name": "Tubarao Saf"
+        "name": "CAT"
       }
     },
     {
@@ -412,7 +412,7 @@
       "round": 18,
       "home": {
         "id": "tubarao-saf",
-        "name": "Tubarao Saf"
+        "name": "CAT"
       },
       "away": {
         "id": "guarani",
