@@ -27,9 +27,7 @@ class MonteCarloEngine:
 
         random.seed(42)
 
-        simulation_engine = SimulationEngine(
-            league
-        )
+        simulation_engine = SimulationEngine()
 
         champions = defaultdict(int)
         total_points = defaultdict(float)

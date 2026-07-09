@@ -17,10 +17,14 @@ class Simulation:
             league.standings
         )
 
-        self._remaining_matches: list[Match] = [
-            match
-            for match in league.remaining_matches()
-        ]
+        self._standings_by_team = {
+            standing.team.id: standing
+            for standing in self._standings
+        }
+
+        self._remaining_matches = (
+            league.remaining_matches()
+        )
 
     @property
     def standings(
@@ -40,8 +44,13 @@ class Simulation:
         result: MatchResult,
     ) -> None:
 
-        home = self._standing(match.home.id)
-        away = self._standing(match.away.id)
+        home = self._standing(
+            match.home.id
+        )
+
+        away = self._standing(
+            match.away.id
+        )
 
         home.apply_match(
             result.home_goals,
@@ -74,8 +83,6 @@ class Simulation:
         team_id: str,
     ) -> Standing:
 
-        return next(
-            standing
-            for standing in self._standings
-            if standing.team.id == team_id
-        )
+        return self._standings_by_team[
+            team_id
+        ]

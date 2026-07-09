@@ -1,49 +1,25 @@
 import json
 
 from fastapi import APIRouter
-from pydantic import BaseModel
 
-from league_simulator.builders.dashboard_builder import (
-    DashboardBuilder,
+from league_simulator.services.league_cache import (
+    get_league,
 )
-from league_simulator.config import (
-    CHAMPIONSHIP,
-    DASHBOARD,
-    DATASET,
-    ITERATIONS,
-)
+from league_simulator.config import DASHBOARD
 from league_simulator.domain.forced_result import (
     ForcedResult,
 )
-from league_simulator.engines.monte_carlo_engine import (
-    MonteCarloEngine,
+from league_simulator.api.models import (
+    SimulationRequest,
 )
-from league_simulator.loaders.json_loader import (
-    JsonLoader,
+from league_simulator.services.dashboard_service import (
+    build_dashboard,
 )
 from league_simulator.services.scenario_service import (
     ScenarioService,
 )
 
 router = APIRouter()
-
-
-class MatchResultRequest(BaseModel):
-    home: str
-    away: str
-    home_goals: int
-    away_goals: int
-
-
-class SimulationRequest(BaseModel):
-    results: list[MatchResultRequest]
-
-
-def load_league():
-
-    return JsonLoader.load(
-        DATASET
-    )
 
 
 @router.get("/")
@@ -61,9 +37,7 @@ def dashboard():
         encoding="utf-8",
     ) as file:
 
-        return json.load(
-            file
-        )
+        return json.load(file)
 
 
 @router.post("/simulate")
@@ -71,7 +45,7 @@ def simulate(
     request: SimulationRequest,
 ):
 
-    league = load_league()
+    league = get_league()
 
     ScenarioService.apply(
         league,
@@ -86,15 +60,6 @@ def simulate(
         ],
     )
 
-    result = MonteCarloEngine(
-        iterations=ITERATIONS,
-    ).simulate(
+    return build_dashboard(
         league,
-    )
-
-    return DashboardBuilder.build(
-        championship=CHAMPIONSHIP,
-        league=league,
-        result=result,
-        iterations=ITERATIONS,
     )
