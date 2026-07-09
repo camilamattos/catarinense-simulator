@@ -1,0 +1,423 @@
+{
+  "championship": "Catarinense Série B 2026",
+  "iterations": 10000,
+  "teams": [
+    {
+      "position": 1,
+      "id": "hercilio-luz",
+      "name": "Hercílio Luz",
+      "points": 29,
+      "wins": 9,
+      "draws": 2,
+      "losses": 2,
+      "goals_for": 28,
+      "goals_against": 9,
+      "goal_difference": 19,
+      "champion_probability": 62.2,
+      "average_points": 37.12
+    },
+    {
+      "position": 2,
+      "id": "metropolitano",
+      "name": "Metropolitano",
+      "points": 26,
+      "wins": 8,
+      "draws": 2,
+      "losses": 3,
+      "goals_for": 21,
+      "goals_against": 11,
+      "goal_difference": 10,
+      "champion_probability": 14.16,
+      "average_points": 33.83
+    },
+    {
+      "position": 3,
+      "id": "blumenau-saf",
+      "name": "Blumenau Saf",
+      "points": 24,
+      "wins": 7,
+      "draws": 3,
+      "losses": 3,
+      "goals_for": 27,
+      "goals_against": 9,
+      "goal_difference": 18,
+      "champion_probability": 10.36,
+      "average_points": 32.83
+    },
+    {
+      "position": 4,
+      "id": "caravaggio",
+      "name": "Caravaggio",
+      "points": 24,
+      "wins": 7,
+      "draws": 3,
+      "losses": 3,
+      "goals_for": 31,
+      "goals_against": 16,
+      "goal_difference": 15,
+      "champion_probability": 11.05,
+      "average_points": 32.99
+    },
+    {
+      "position": 5,
+      "id": "tubarao-saf",
+      "name": "Tubarao Saf",
+      "points": 23,
+      "wins": 6,
+      "draws": 5,
+      "losses": 2,
+      "goals_for": 19,
+      "goals_against": 10,
+      "goal_difference": 9,
+      "champion_probability": 2.23,
+      "average_points": 30.04
+    },
+    {
+      "position": 6,
+      "id": "guarani",
+      "name": "Guarani",
+      "points": 15,
+      "wins": 4,
+      "draws": 3,
+      "losses": 6,
+      "goals_for": 13,
+      "goals_against": 21,
+      "goal_difference": -8,
+      "champion_probability": 0,
+      "average_points": 21.52
+    },
+    {
+      "position": 7,
+      "id": "fluminense",
+      "name": "Fluminense",
+      "points": 14,
+      "wins": 4,
+      "draws": 2,
+      "losses": 7,
+      "goals_for": 11,
+      "goals_against": 16,
+      "goal_difference": -5,
+      "champion_probability": 0,
+      "average_points": 20.33
+    },
+    {
+      "position": 8,
+      "id": "nacao",
+      "name": "Nação",
+      "points": 14,
+      "wins": 3,
+      "draws": 5,
+      "losses": 5,
+      "goals_for": 11,
+      "goals_against": 20,
+      "goal_difference": -9,
+      "champion_probability": 0,
+      "average_points": 19.62
+    },
+    {
+      "position": 9,
+      "id": "juventus",
+      "name": "Juventus",
+      "points": 11,
+      "wins": 3,
+      "draws": 2,
+      "losses": 8,
+      "goals_for": 12,
+      "goals_against": 20,
+      "goal_difference": -8,
+      "champion_probability": 0,
+      "average_points": 16.17
+    },
+    {
+      "position": 10,
+      "id": "jaragua",
+      "name": "Jaraguá",
+      "points": 1,
+      "wins": 0,
+      "draws": 1,
+      "losses": 12,
+      "goals_for": 5,
+      "goals_against": 46,
+      "goal_difference": -41,
+      "champion_probability": 0,
+      "average_points": 4.74
+    }
+  ],
+  "matches": [
+    {
+      "round": 14,
+      "home": {
+        "id": "blumenau-saf",
+        "name": "Blumenau Saf"
+      },
+      "away": {
+        "id": "hercilio-luz",
+        "name": "Hercílio Luz"
+      }
+    },
+    {
+      "round": 14,
+      "home": {
+        "id": "caravaggio",
+        "name": "Caravaggio"
+      },
+      "away": {
+        "id": "jaragua",
+        "name": "Jaraguá"
+      }
+    },
+    {
+      "round": 14,
+      "home": {
+        "id": "juventus",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "guarani",
+        "name": "Guarani"
+      }
+    },
+    {
+      "round": 14,
+      "home": {
+        "id": "nacao",
+        "name": "Nação"
+      },
+      "away": {
+        "id": "fluminense",
+        "name": "Fluminense"
+      }
+    },
+    {
+      "round": 14,
+      "home": {
+        "id": "tubarao-saf",
+        "name": "Tubarao Saf"
+      },
+      "away": {
+        "id": "metropolitano",
+        "name": "Metropolitano"
+      }
+    },
+    {
+      "round": 15,
+      "home": {
+        "id": "blumenau-saf",
+        "name": "Blumenau Saf"
+      },
+      "away": {
+        "id": "metropolitano",
+        "name": "Metropolitano"
+      }
+    },
+    {
+      "round": 15,
+      "home": {
+        "id": "caravaggio",
+        "name": "Caravaggio"
+      },
+      "away": {
+        "id": "tubarao-saf",
+        "name": "Tubarao Saf"
+      }
+    },
+    {
+      "round": 15,
+      "home": {
+        "id": "fluminense",
+        "name": "Fluminense"
+      },
+      "away": {
+        "id": "guarani",
+        "name": "Guarani"
+      }
+    },
+    {
+      "round": 15,
+      "home": {
+        "id": "hercilio-luz",
+        "name": "Hercílio Luz"
+      },
+      "away": {
+        "id": "juventus",
+        "name": "Juventus"
+      }
+    },
+    {
+      "round": 15,
+      "home": {
+        "id": "jaragua",
+        "name": "Jaraguá"
+      },
+      "away": {
+        "id": "nacao",
+        "name": "Nação"
+      }
+    },
+    {
+      "round": 16,
+      "home": {
+        "id": "guarani",
+        "name": "Guarani"
+      },
+      "away": {
+        "id": "blumenau-saf",
+        "name": "Blumenau Saf"
+      }
+    },
+    {
+      "round": 16,
+      "home": {
+        "id": "juventus",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "fluminense",
+        "name": "Fluminense"
+      }
+    },
+    {
+      "round": 16,
+      "home": {
+        "id": "metropolitano",
+        "name": "Metropolitano"
+      },
+      "away": {
+        "id": "jaragua",
+        "name": "Jaraguá"
+      }
+    },
+    {
+      "round": 16,
+      "home": {
+        "id": "nacao",
+        "name": "Nação"
+      },
+      "away": {
+        "id": "caravaggio",
+        "name": "Caravaggio"
+      }
+    },
+    {
+      "round": 16,
+      "home": {
+        "id": "tubarao-saf",
+        "name": "Tubarao Saf"
+      },
+      "away": {
+        "id": "hercilio-luz",
+        "name": "Hercílio Luz"
+      }
+    },
+    {
+      "round": 17,
+      "home": {
+        "id": "blumenau-saf",
+        "name": "Blumenau Saf"
+      },
+      "away": {
+        "id": "nacao",
+        "name": "Nação"
+      }
+    },
+    {
+      "round": 17,
+      "home": {
+        "id": "fluminense",
+        "name": "Fluminense"
+      },
+      "away": {
+        "id": "tubarao-saf",
+        "name": "Tubarao Saf"
+      }
+    },
+    {
+      "round": 17,
+      "home": {
+        "id": "guarani",
+        "name": "Guarani"
+      },
+      "away": {
+        "id": "jaragua",
+        "name": "Jaraguá"
+      }
+    },
+    {
+      "round": 17,
+      "home": {
+        "id": "hercilio-luz",
+        "name": "Hercílio Luz"
+      },
+      "away": {
+        "id": "caravaggio",
+        "name": "Caravaggio"
+      }
+    },
+    {
+      "round": 17,
+      "home": {
+        "id": "juventus",
+        "name": "Juventus"
+      },
+      "away": {
+        "id": "metropolitano",
+        "name": "Metropolitano"
+      }
+    },
+    {
+      "round": 18,
+      "home": {
+        "id": "caravaggio",
+        "name": "Caravaggio"
+      },
+      "away": {
+        "id": "juventus",
+        "name": "Juventus"
+      }
+    },
+    {
+      "round": 18,
+      "home": {
+        "id": "jaragua",
+        "name": "Jaraguá"
+      },
+      "away": {
+        "id": "blumenau-saf",
+        "name": "Blumenau Saf"
+      }
+    },
+    {
+      "round": 18,
+      "home": {
+        "id": "metropolitano",
+        "name": "Metropolitano"
+      },
+      "away": {
+        "id": "fluminense",
+        "name": "Fluminense"
+      }
+    },
+    {
+      "round": 18,
+      "home": {
+        "id": "nacao",
+        "name": "Nação"
+      },
+      "away": {
+        "id": "hercilio-luz",
+        "name": "Hercílio Luz"
+      }
+    },
+    {
+      "round": 18,
+      "home": {
+        "id": "tubarao-saf",
+        "name": "Tubarao Saf"
+      },
+      "away": {
+        "id": "guarani",
+        "name": "Guarani"
+      }
+    }
+  ]
+}
