@@ -4,7 +4,19 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 */2 * * *"
+    # Quarta, sábado e domingo
+    # Horários em UTC (Brasília = UTC-3)
+    #
+    # 19:50 UTC -> 16:50 BRT
+    # 20:50 UTC -> 17:50 BRT
+    # 21:50 UTC -> 18:50 BRT
+    # 23:50 UTC -> 20:50 BRT
+    # 00:20 UTC -> 21:20 BRT (dia seguinte)
+    - cron: "50 19 * * 3,6,0"
+    - cron: "50 20 * * 3,6,0"
+    - cron: "50 21 * * 3,6,0"
+    - cron: "50 23 * * 3,6,0"
+    - cron: "20 0 * * 4,0,1"
 
 jobs:
   update:
@@ -49,6 +61,4 @@ jobs:
           fi
 
           git commit -m "Automatic dataset update"
-
-          git pull --rebase origin ${{ github.ref_name }}
           git push
