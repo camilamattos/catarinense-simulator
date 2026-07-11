@@ -521,16 +521,16 @@
   },
   {
     "round": 14,
-    "home": "blumenau-saf",
-    "away": "hercilio-luz",
+    "home": "tubarao-saf",
+    "away": "metropolitano",
     "played": false,
     "home_goals": null,
     "away_goals": null
   },
   {
     "round": 14,
-    "home": "tubarao-saf",
-    "away": "metropolitano",
+    "home": "blumenau-saf",
+    "away": "hercilio-luz",
     "played": false,
     "home_goals": null,
     "away_goals": null
@@ -609,6 +609,14 @@
   },
   {
     "round": 16,
+    "home": "nacao",
+    "away": "caravaggio",
+    "played": false,
+    "home_goals": null,
+    "away_goals": null
+  },
+  {
+    "round": 16,
     "home": "tubarao-saf",
     "away": "hercilio-luz",
     "played": false,
@@ -627,14 +635,6 @@
     "round": 16,
     "home": "guarani",
     "away": "blumenau-saf",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
-  },
-  {
-    "round": 16,
-    "home": "nacao",
-    "away": "caravaggio",
     "played": false,
     "home_goals": null,
     "away_goals": null
