@@ -523,25 +523,25 @@
     "round": 14,
     "home": "tubarao-saf",
     "away": "metropolitano",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 3
   },
   {
     "round": 14,
     "home": "blumenau-saf",
     "away": "hercilio-luz",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 2
   },
   {
     "round": 14,
     "home": "juventus",
     "away": "guarani",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
   },
   {
     "round": 14,
