@@ -45,6 +45,15 @@
     "goals_against": 13
   },
   {
+    "team": "fluminense",
+    "points": 17,
+    "wins": 5,
+    "draws": 2,
+    "losses": 7,
+    "goals_for": 13,
+    "goals_against": 17
+  },
+  {
     "team": "guarani",
     "points": 15,
     "wins": 4,
@@ -52,15 +61,6 @@
     "losses": 7,
     "goals_for": 13,
     "goals_against": 22
-  },
-  {
-    "team": "fluminense",
-    "points": 14,
-    "wins": 4,
-    "draws": 2,
-    "losses": 7,
-    "goals_for": 11,
-    "goals_against": 16
   },
   {
     "team": "juventus",
@@ -76,9 +76,9 @@
     "points": 14,
     "wins": 3,
     "draws": 5,
-    "losses": 5,
-    "goals_for": 11,
-    "goals_against": 20
+    "losses": 6,
+    "goals_for": 12,
+    "goals_against": 22
   },
   {
     "team": "jaragua",

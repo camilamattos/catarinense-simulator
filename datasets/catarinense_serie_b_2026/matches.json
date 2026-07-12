@@ -555,9 +555,9 @@
     "round": 14,
     "home": "nacao",
     "away": "fluminense",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 2
   },
   {
     "round": 15,
