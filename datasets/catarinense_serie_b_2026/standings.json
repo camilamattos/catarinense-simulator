@@ -18,6 +18,15 @@
     "goals_against": 13
   },
   {
+    "team": "caravaggio",
+    "points": 27,
+    "wins": 8,
+    "draws": 3,
+    "losses": 3,
+    "goals_for": 40,
+    "goals_against": 16
+  },
+  {
     "team": "blumenau-saf",
     "points": 24,
     "wins": 7,
@@ -25,15 +34,6 @@
     "losses": 4,
     "goals_for": 27,
     "goals_against": 11
-  },
-  {
-    "team": "caravaggio",
-    "points": 24,
-    "wins": 7,
-    "draws": 3,
-    "losses": 3,
-    "goals_for": 31,
-    "goals_against": 16
   },
   {
     "team": "tubarao-saf",
@@ -85,8 +85,8 @@
     "points": 1,
     "wins": 0,
     "draws": 1,
-    "losses": 12,
+    "losses": 13,
     "goals_for": 5,
-    "goals_against": 46
+    "goals_against": 55
   }
 ]

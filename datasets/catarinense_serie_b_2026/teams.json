@@ -8,12 +8,12 @@
     "name": "Metropolitano"
   },
   {
-    "id": "blumenau-saf",
-    "name": "Blumenau Saf"
-  },
-  {
     "id": "caravaggio",
     "name": "Caravaggio"
+  },
+  {
+    "id": "blumenau-saf",
+    "name": "Blumenau Saf"
   },
   {
     "id": "tubarao-saf",

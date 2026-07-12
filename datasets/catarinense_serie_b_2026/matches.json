@@ -547,9 +547,9 @@
     "round": 14,
     "home": "caravaggio",
     "away": "jaragua",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 9,
+    "away_goals": 0
   },
   {
     "round": 14,
