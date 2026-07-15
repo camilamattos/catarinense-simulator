@@ -563,25 +563,25 @@
     "round": 15,
     "home": "blumenau-saf",
     "away": "metropolitano",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 4,
+    "away_goals": 1
   },
   {
     "round": 15,
     "home": "fluminense",
     "away": "guarani",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 1
   },
   {
     "round": 15,
     "home": "jaragua",
     "away": "nacao",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 2
   },
   {
     "round": 15,

@@ -13,9 +13,9 @@
     "points": 29,
     "wins": 9,
     "draws": 2,
-    "losses": 3,
-    "goals_for": 24,
-    "goals_against": 13
+    "losses": 4,
+    "goals_for": 25,
+    "goals_against": 17
   },
   {
     "team": "caravaggio",
@@ -28,12 +28,12 @@
   },
   {
     "team": "blumenau-saf",
-    "points": 24,
-    "wins": 7,
+    "points": 27,
+    "wins": 8,
     "draws": 3,
     "losses": 4,
-    "goals_for": 27,
-    "goals_against": 11
+    "goals_for": 31,
+    "goals_against": 12
   },
   {
     "team": "tubarao-saf",
@@ -46,21 +46,30 @@
   },
   {
     "team": "fluminense",
-    "points": 17,
+    "points": 18,
     "wins": 5,
-    "draws": 2,
+    "draws": 3,
     "losses": 7,
-    "goals_for": 13,
-    "goals_against": 17
+    "goals_for": 14,
+    "goals_against": 18
+  },
+  {
+    "team": "nacao",
+    "points": 17,
+    "wins": 4,
+    "draws": 5,
+    "losses": 6,
+    "goals_for": 14,
+    "goals_against": 22
   },
   {
     "team": "guarani",
-    "points": 15,
+    "points": 16,
     "wins": 4,
-    "draws": 3,
+    "draws": 4,
     "losses": 7,
-    "goals_for": 13,
-    "goals_against": 22
+    "goals_for": 14,
+    "goals_against": 23
   },
   {
     "team": "juventus",
@@ -72,21 +81,12 @@
     "goals_against": 20
   },
   {
-    "team": "nacao",
-    "points": 14,
-    "wins": 3,
-    "draws": 5,
-    "losses": 6,
-    "goals_for": 12,
-    "goals_against": 22
-  },
-  {
     "team": "jaragua",
     "points": 1,
     "wins": 0,
     "draws": 1,
-    "losses": 13,
+    "losses": 14,
     "goals_for": 5,
-    "goals_against": 55
+    "goals_against": 57
   }
 ]
