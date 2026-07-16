@@ -587,17 +587,17 @@
     "round": 15,
     "home": "caravaggio",
     "away": "tubarao-saf",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 1
   },
   {
     "round": 15,
     "home": "hercilio-luz",
     "away": "juventus",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 1,
+    "away_goals": 0
   },
   {
     "round": 16,
