@@ -9,21 +9,21 @@
     "goals_against": 9
   },
   {
+    "team": "metropolitano",
+    "points": 32,
+    "wins": 10,
+    "draws": 2,
+    "losses": 4,
+    "goals_for": 31,
+    "goals_against": 18
+  },
+  {
     "team": "caravaggio",
     "points": 30,
     "wins": 9,
     "draws": 3,
     "losses": 3,
     "goals_for": 42,
-    "goals_against": 17
-  },
-  {
-    "team": "metropolitano",
-    "points": 29,
-    "wins": 9,
-    "draws": 2,
-    "losses": 4,
-    "goals_for": 25,
     "goals_against": 17
   },
   {
@@ -85,8 +85,8 @@
     "points": 1,
     "wins": 0,
     "draws": 1,
-    "losses": 14,
-    "goals_for": 5,
-    "goals_against": 57
+    "losses": 15,
+    "goals_for": 6,
+    "goals_against": 63
   }
 ]

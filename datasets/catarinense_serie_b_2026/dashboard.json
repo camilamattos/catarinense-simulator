@@ -1,6 +1,6 @@
 {
   "championship": "Catarinense Série B 2026",
-  "updated_at": "2026-07-16T03:44:06.945704+00:00",
+  "updated_at": "2026-07-18T20:29:07.930702+00:00",
   "iterations": 10000,
   "teams": [
     {
@@ -14,11 +14,25 @@
       "goals_for": 31,
       "goals_against": 9,
       "goal_difference": 22,
-      "champion_probability": 83.91,
-      "average_points": 39.73
+      "champion_probability": 84.49,
+      "average_points": 39.76
     },
     {
       "position": 2,
+      "id": "metropolitano",
+      "name": "Metropolitano",
+      "points": 32,
+      "wins": 10,
+      "draws": 2,
+      "losses": 4,
+      "goals_for": 31,
+      "goals_against": 18,
+      "goal_difference": 13,
+      "champion_probability": 3.42,
+      "average_points": 35.44
+    },
+    {
+      "position": 3,
       "id": "caravaggio",
       "name": "Caravaggio",
       "points": 30,
@@ -28,22 +42,8 @@
       "goals_for": 42,
       "goals_against": 17,
       "goal_difference": 25,
-      "champion_probability": 13.37,
-      "average_points": 35.05
-    },
-    {
-      "position": 3,
-      "id": "metropolitano",
-      "name": "Metropolitano",
-      "points": 29,
-      "wins": 9,
-      "draws": 2,
-      "losses": 4,
-      "goals_for": 25,
-      "goals_against": 17,
-      "goal_difference": 8,
-      "champion_probability": 2.26,
-      "average_points": 34.55
+      "champion_probability": 11.68,
+      "average_points": 35.0
     },
     {
       "position": 4,
@@ -56,8 +56,8 @@
       "goals_for": 31,
       "goals_against": 12,
       "goal_difference": 19,
-      "champion_probability": 0.46,
-      "average_points": 32.72
+      "champion_probability": 0.41,
+      "average_points": 32.69
     },
     {
       "position": 5,
@@ -71,7 +71,7 @@
       "goals_against": 15,
       "goal_difference": 7,
       "champion_probability": 0,
-      "average_points": 27.42
+      "average_points": 27.43
     },
     {
       "position": 6,
@@ -85,7 +85,7 @@
       "goals_against": 18,
       "goal_difference": -4,
       "champion_probability": 0,
-      "average_points": 21.7
+      "average_points": 21.65
     },
     {
       "position": 7,
@@ -99,7 +99,7 @@
       "goals_against": 22,
       "goal_difference": -8,
       "champion_probability": 0,
-      "average_points": 19.79
+      "average_points": 19.81
     },
     {
       "position": 8,
@@ -113,7 +113,7 @@
       "goals_against": 23,
       "goal_difference": -9,
       "champion_probability": 0,
-      "average_points": 19.97
+      "average_points": 19.99
     },
     {
       "position": 9,
@@ -127,7 +127,7 @@
       "goals_against": 21,
       "goal_difference": -8,
       "champion_probability": 0,
-      "average_points": 17.08
+      "average_points": 17.06
     },
     {
       "position": 10,
@@ -136,12 +136,12 @@
       "points": 1,
       "wins": 0,
       "draws": 1,
-      "losses": 14,
-      "goals_for": 5,
-      "goals_against": 57,
-      "goal_difference": -52,
+      "losses": 15,
+      "goals_for": 6,
+      "goals_against": 63,
+      "goal_difference": -57,
       "champion_probability": 0,
-      "average_points": 3.03
+      "average_points": 2.51
     }
   ],
   "matches": [
@@ -165,17 +165,6 @@
       "away": {
         "id": "fluminense",
         "name": "Fluminense"
-      }
-    },
-    {
-      "round": 16,
-      "home": {
-        "id": "metropolitano",
-        "name": "Metropolitano"
-      },
-      "away": {
-        "id": "jaragua",
-        "name": "Jaraguá"
       }
     },
     {

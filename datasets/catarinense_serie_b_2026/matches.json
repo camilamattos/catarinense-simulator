@@ -603,9 +603,9 @@
     "round": 16,
     "home": "metropolitano",
     "away": "jaragua",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 6,
+    "away_goals": 1
   },
   {
     "round": 16,
