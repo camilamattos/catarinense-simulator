@@ -1,6 +1,8 @@
 import json
+import logging
+from time import perf_counter
 
-from fastapi import APIRouter
+from fastapi import APIRouter, Request
 from pydantic import BaseModel
 
 from league_simulator.builders.dashboard_builder import (
@@ -23,6 +25,8 @@ from league_simulator.services.league_cache import (
 from league_simulator.services.scenario_service import (
     ScenarioService,
 )
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -60,8 +64,45 @@ def dashboard():
 
 @router.post("/simulate")
 def simulate(
-    request: SimulationRequest,
+    request: Request,
+    body: SimulationRequest,
 ):
+
+    start = perf_counter()
+
+    client_ip = request.headers.get(
+        "x-forwarded-for",
+        request.client.host if request.client else "unknown",
+    )
+
+    user_agent = request.headers.get(
+        "user-agent",
+        "unknown",
+    )
+
+    logger.info("=" * 80)
+    logger.info("POST /simulate")
+    logger.info("IP: %s", client_ip)
+    logger.info("User-Agent: %s", user_agent)
+    logger.info("Resultados enviados: %s", len(body.results))
+
+    for result in body.results:
+        logger.info(
+            "%s %s x %s %s",
+            result.home,
+            result.home_goals,
+            result.away_goals,
+            result.away,
+        )
+
+    logger.info(
+        "Payload:\n%s",
+        json.dumps(
+            body.model_dump(),
+            indent=2,
+            ensure_ascii=False,
+        ),
+    )
 
     league = get_league()
 
@@ -74,7 +115,7 @@ def simulate(
                 home_goals=result.home_goals,
                 away_goals=result.away_goals,
             )
-            for result in request.results
+            for result in body.results
         ],
     )
 
@@ -83,6 +124,14 @@ def simulate(
     ).simulate(
         league,
     )
+
+    elapsed = perf_counter() - start
+
+    logger.info(
+        "Simulation finished in %.2fs",
+        elapsed,
+    )
+    logger.info("=" * 80)
 
     return DashboardBuilder.build(
         championship=CHAMPIONSHIP,
