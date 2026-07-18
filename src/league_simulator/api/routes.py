@@ -1,5 +1,4 @@
 import json
-import logging
 from time import perf_counter
 
 from fastapi import APIRouter, Request
@@ -25,8 +24,6 @@ from league_simulator.services.league_cache import (
 from league_simulator.services.scenario_service import (
     ScenarioService,
 )
-
-logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -80,28 +77,27 @@ def simulate(
         "unknown",
     )
 
-    logger.info("=" * 80)
-    logger.info("POST /simulate")
-    logger.info("IP: %s", client_ip)
-    logger.info("User-Agent: %s", user_agent)
-    logger.info("Resultados enviados: %s", len(body.results))
+    print("=" * 80)
+    print("POST /simulate")
+    print(f"IP: {client_ip}")
+    print(f"User-Agent: {user_agent}")
+    print(f"Resultados enviados: {len(body.results)}")
 
     for result in body.results:
-        logger.info(
-            "%s %s x %s %s",
-            result.home,
-            result.home_goals,
-            result.away_goals,
-            result.away,
+        print(
+            f"{result.home} "
+            f"{result.home_goals} x "
+            f"{result.away_goals} "
+            f"{result.away}"
         )
 
-    logger.info(
-        "Payload:\n%s",
+    print("\nPayload:")
+    print(
         json.dumps(
             body.model_dump(),
             indent=2,
             ensure_ascii=False,
-        ),
+        )
     )
 
     league = get_league()
@@ -127,11 +123,8 @@ def simulate(
 
     elapsed = perf_counter() - start
 
-    logger.info(
-        "Simulation finished in %.2fs",
-        elapsed,
-    )
-    logger.info("=" * 80)
+    print(f"Simulation finished in {elapsed:.2f}s")
+    print("=" * 80)
 
     return DashboardBuilder.build(
         championship=CHAMPIONSHIP,
