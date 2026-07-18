@@ -72,32 +72,13 @@ def simulate(
         request.client.host if request.client else "unknown",
     )
 
-    user_agent = request.headers.get(
-        "user-agent",
-        "unknown",
-    )
-
-    print("=" * 80)
-    print("POST /simulate")
-    print(f"IP: {client_ip}")
-    print(f"User-Agent: {user_agent}")
-    print(f"Resultados enviados: {len(body.results)}")
-
-    for result in body.results:
-        print(
+    scenarios = " | ".join(
+        (
             f"{result.home} "
-            f"{result.home_goals} x "
-            f"{result.away_goals} "
+            f"{result.home_goals}x{result.away_goals} "
             f"{result.away}"
         )
-
-    print("\nPayload:")
-    print(
-        json.dumps(
-            body.model_dump(),
-            indent=2,
-            ensure_ascii=False,
-        )
+        for result in body.results
     )
 
     league = get_league()
@@ -123,8 +104,13 @@ def simulate(
 
     elapsed = perf_counter() - start
 
-    print(f"Simulation finished in {elapsed:.2f}s")
-    print("=" * 80)
+    print(
+        f"POST /simulate | "
+        f"IP={client_ip} | "
+        f"{len(body.results)} resultados | "
+        f"{scenarios} | "
+        f"{elapsed:.2f}s"
+    )
 
     return DashboardBuilder.build(
         championship=CHAMPIONSHIP,
