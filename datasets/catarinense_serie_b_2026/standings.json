@@ -19,12 +19,12 @@
   },
   {
     "team": "caravaggio",
-    "points": 30,
+    "points": 31,
     "wins": 9,
-    "draws": 3,
+    "draws": 4,
     "losses": 3,
-    "goals_for": 42,
-    "goals_against": 17
+    "goals_for": 44,
+    "goals_against": 19
   },
   {
     "team": "blumenau-saf",
@@ -55,12 +55,12 @@
   },
   {
     "team": "nacao",
-    "points": 17,
+    "points": 18,
     "wins": 4,
-    "draws": 5,
+    "draws": 6,
     "losses": 6,
-    "goals_for": 14,
-    "goals_against": 22
+    "goals_for": 16,
+    "goals_against": 24
   },
   {
     "team": "guarani",

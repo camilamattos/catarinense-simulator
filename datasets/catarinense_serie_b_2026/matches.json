@@ -611,9 +611,9 @@
     "round": 16,
     "home": "nacao",
     "away": "caravaggio",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 2
   },
   {
     "round": 16,
