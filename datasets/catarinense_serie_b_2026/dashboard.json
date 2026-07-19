@@ -1,21 +1,21 @@
 {
   "championship": "Catarinense Série B 2026",
-  "updated_at": "2026-07-19T04:02:19.233314+00:00",
+  "updated_at": "2026-07-19T20:29:19.937151+00:00",
   "iterations": 10000,
   "teams": [
     {
       "position": 1,
       "id": "hercilio-luz",
       "name": "Hercílio Luz",
-      "points": 35,
-      "wins": 11,
+      "points": 38,
+      "wins": 12,
       "draws": 2,
       "losses": 2,
-      "goals_for": 31,
+      "goals_for": 33,
       "goals_against": 9,
-      "goal_difference": 22,
-      "champion_probability": 89.21,
-      "average_points": 39.67
+      "goal_difference": 24,
+      "champion_probability": 99.92,
+      "average_points": 41.29
     },
     {
       "position": 2,
@@ -28,8 +28,8 @@
       "goals_for": 31,
       "goals_against": 18,
       "goal_difference": 13,
-      "champion_probability": 4.86,
-      "average_points": 35.47
+      "champion_probability": 0.08,
+      "average_points": 35.36
     },
     {
       "position": 3,
@@ -42,22 +42,22 @@
       "goals_for": 44,
       "goals_against": 19,
       "goal_difference": 25,
-      "champion_probability": 5.23,
-      "average_points": 34.32
+      "champion_probability": 0,
+      "average_points": 34.23
     },
     {
       "position": 4,
       "id": "blumenau-saf",
       "name": "Blumenau Saf",
-      "points": 27,
+      "points": 28,
       "wins": 8,
-      "draws": 3,
+      "draws": 4,
       "losses": 4,
-      "goals_for": 31,
-      "goals_against": 12,
+      "goals_for": 32,
+      "goals_against": 13,
       "goal_difference": 19,
-      "champion_probability": 0.7,
-      "average_points": 32.57
+      "champion_probability": 0,
+      "average_points": 32.02
     },
     {
       "position": 5,
@@ -66,12 +66,12 @@
       "points": 23,
       "wins": 6,
       "draws": 5,
-      "losses": 4,
+      "losses": 5,
       "goals_for": 22,
-      "goals_against": 15,
-      "goal_difference": 7,
+      "goals_against": 17,
+      "goal_difference": 5,
       "champion_probability": 0,
-      "average_points": 27.46
+      "average_points": 26.08
     },
     {
       "position": 6,
@@ -80,12 +80,12 @@
       "points": 18,
       "wins": 5,
       "draws": 3,
-      "losses": 7,
+      "losses": 8,
       "goals_for": 14,
-      "goals_against": 18,
-      "goal_difference": -4,
+      "goals_against": 21,
+      "goal_difference": -7,
       "champion_probability": 0,
-      "average_points": 21.61
+      "average_points": 20.3
     },
     {
       "position": 7,
@@ -99,35 +99,35 @@
       "goals_against": 24,
       "goal_difference": -8,
       "champion_probability": 0,
-      "average_points": 19.86
+      "average_points": 19.83
     },
     {
       "position": 8,
-      "id": "guarani",
-      "name": "Guarani",
-      "points": 16,
-      "wins": 4,
-      "draws": 4,
-      "losses": 7,
-      "goals_for": 14,
-      "goals_against": 23,
-      "goal_difference": -9,
+      "id": "juventus",
+      "name": "Juventus",
+      "points": 17,
+      "wins": 5,
+      "draws": 2,
+      "losses": 9,
+      "goals_for": 16,
+      "goals_against": 21,
+      "goal_difference": -5,
       "champion_probability": 0,
-      "average_points": 20.07
+      "average_points": 18.9
     },
     {
       "position": 9,
-      "id": "juventus",
-      "name": "Juventus",
-      "points": 14,
+      "id": "guarani",
+      "name": "Guarani",
+      "points": 17,
       "wins": 4,
-      "draws": 2,
-      "losses": 9,
-      "goals_for": 13,
-      "goals_against": 21,
-      "goal_difference": -8,
+      "draws": 5,
+      "losses": 7,
+      "goals_for": 15,
+      "goals_against": 24,
+      "goal_difference": -9,
       "champion_probability": 0,
-      "average_points": 17.05
+      "average_points": 19.96
     },
     {
       "position": 10,
@@ -141,43 +141,10 @@
       "goals_against": 63,
       "goal_difference": -57,
       "champion_probability": 0,
-      "average_points": 2.51
+      "average_points": 2.5
     }
   ],
   "matches": [
-    {
-      "round": 16,
-      "home": {
-        "id": "guarani",
-        "name": "Guarani"
-      },
-      "away": {
-        "id": "blumenau-saf",
-        "name": "Blumenau Saf"
-      }
-    },
-    {
-      "round": 16,
-      "home": {
-        "id": "juventus",
-        "name": "Juventus"
-      },
-      "away": {
-        "id": "fluminense",
-        "name": "Fluminense"
-      }
-    },
-    {
-      "round": 16,
-      "home": {
-        "id": "tubarao-saf",
-        "name": "CAT"
-      },
-      "away": {
-        "id": "hercilio-luz",
-        "name": "Hercílio Luz"
-      }
-    },
     {
       "round": 17,
       "home": {
