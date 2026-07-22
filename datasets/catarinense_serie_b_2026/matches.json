@@ -659,9 +659,9 @@
     "round": 17,
     "home": "fluminense",
     "away": "tubarao-saf",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 2,
+    "away_goals": 1
   },
   {
     "round": 17,

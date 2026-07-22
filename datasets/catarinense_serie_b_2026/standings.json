@@ -40,9 +40,18 @@
     "points": 23,
     "wins": 6,
     "draws": 5,
-    "losses": 5,
-    "goals_for": 22,
-    "goals_against": 17
+    "losses": 6,
+    "goals_for": 23,
+    "goals_against": 19
+  },
+  {
+    "team": "fluminense",
+    "points": 21,
+    "wins": 6,
+    "draws": 3,
+    "losses": 8,
+    "goals_for": 16,
+    "goals_against": 22
   },
   {
     "team": "nacao",
@@ -61,15 +70,6 @@
     "losses": 7,
     "goals_for": 22,
     "goals_against": 24
-  },
-  {
-    "team": "fluminense",
-    "points": 18,
-    "wins": 5,
-    "draws": 3,
-    "losses": 8,
-    "goals_for": 14,
-    "goals_against": 21
   },
   {
     "team": "juventus",
