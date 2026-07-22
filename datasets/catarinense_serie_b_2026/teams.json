@@ -20,20 +20,20 @@
     "name": "Tubarao Saf"
   },
   {
-    "id": "fluminense",
-    "name": "Fluminense"
-  },
-  {
     "id": "nacao",
     "name": "Nação"
   },
   {
-    "id": "juventus",
-    "name": "Juventus"
-  },
-  {
     "id": "guarani",
     "name": "Guarani"
+  },
+  {
+    "id": "fluminense",
+    "name": "Fluminense"
+  },
+  {
+    "id": "juventus",
+    "name": "Juventus"
   },
   {
     "id": "jaragua",
