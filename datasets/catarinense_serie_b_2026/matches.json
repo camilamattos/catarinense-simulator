@@ -675,9 +675,9 @@
     "round": 17,
     "home": "hercilio-luz",
     "away": "caravaggio",
-    "played": false,
-    "home_goals": null,
-    "away_goals": null
+    "played": true,
+    "home_goals": 0,
+    "away_goals": 0
   },
   {
     "round": 18,

@@ -1,21 +1,21 @@
 {
   "championship": "Catarinense Série B 2026",
-  "updated_at": "2026-07-23T01:14:22.535407+00:00",
+  "updated_at": "2026-07-23T03:50:06.956862+00:00",
   "iterations": 10000,
   "teams": [
     {
       "position": 1,
       "id": "hercilio-luz",
       "name": "Hercílio Luz",
-      "points": 38,
+      "points": 39,
       "wins": 12,
-      "draws": 2,
+      "draws": 3,
       "losses": 2,
       "goals_for": 33,
       "goals_against": 9,
       "goal_difference": 24,
-      "champion_probability": 99.9,
-      "average_points": 41.26
+      "champion_probability": 100.0,
+      "average_points": 40.58
     },
     {
       "position": 2,
@@ -28,22 +28,22 @@
       "goals_for": 33,
       "goals_against": 18,
       "goal_difference": 15,
-      "champion_probability": 0.1,
-      "average_points": 36.88
+      "champion_probability": 0,
+      "average_points": 36.87
     },
     {
       "position": 3,
       "id": "caravaggio",
       "name": "Caravaggio",
-      "points": 31,
+      "points": 32,
       "wins": 9,
-      "draws": 4,
+      "draws": 5,
       "losses": 3,
       "goals_for": 44,
       "goals_against": 19,
       "goal_difference": 25,
       "champion_probability": 0,
-      "average_points": 34.23
+      "average_points": 34.13
     },
     {
       "position": 4,
@@ -57,7 +57,7 @@
       "goals_against": 15,
       "goal_difference": 17,
       "champion_probability": 0,
-      "average_points": 29.98
+      "average_points": 30.0
     },
     {
       "position": 5,
@@ -71,7 +71,7 @@
       "goals_against": 19,
       "goal_difference": 4,
       "champion_probability": 0,
-      "average_points": 24.69
+      "average_points": 24.71
     },
     {
       "position": 6,
@@ -99,7 +99,7 @@
       "goals_against": 24,
       "goal_difference": -6,
       "champion_probability": 0,
-      "average_points": 22.14
+      "average_points": 22.15
     },
     {
       "position": 8,
@@ -113,7 +113,7 @@
       "goals_against": 24,
       "goal_difference": -2,
       "champion_probability": 0,
-      "average_points": 21.06
+      "average_points": 21.04
     },
     {
       "position": 9,
@@ -141,21 +141,10 @@
       "goals_against": 70,
       "goal_difference": -64,
       "champion_probability": 0,
-      "average_points": 1.77
+      "average_points": 1.76
     }
   ],
   "matches": [
-    {
-      "round": 17,
-      "home": {
-        "id": "hercilio-luz",
-        "name": "Hercílio Luz"
-      },
-      "away": {
-        "id": "caravaggio",
-        "name": "Caravaggio"
-      }
-    },
     {
       "round": 18,
       "home": {

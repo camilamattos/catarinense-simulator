@@ -1,9 +1,9 @@
 [
   {
     "team": "hercilio-luz",
-    "points": 38,
+    "points": 39,
     "wins": 12,
-    "draws": 2,
+    "draws": 3,
     "losses": 2,
     "goals_for": 33,
     "goals_against": 9
@@ -19,9 +19,9 @@
   },
   {
     "team": "caravaggio",
-    "points": 31,
+    "points": 32,
     "wins": 9,
-    "draws": 4,
+    "draws": 5,
     "losses": 3,
     "goals_for": 44,
     "goals_against": 19
